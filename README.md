@@ -1,4 +1,4 @@
 # parent
 
 java global parent module
-(pmd, checketyle settings, etc)
+(release, pmd, checkstyle settings, etc)
