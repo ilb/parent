@@ -11,7 +11,8 @@
         <maven.compiler.target>1.8</maven.compiler.target>
         <cxf.resources.base.path />
         <cxf.checkstyle.extension />
-        <cxf.build-utils.version>3.4.4</cxf.build-utils.version>
+        <!--<cxf.build-utils.version>3.4.4</cxf.build-utils.version>-->
+        <ilb.buildtools.version>1.0-SNAPSHOT</ilb.buildtools.version>
     </properties>
     <name>parent</name>
     <description>java global parent module (release, pmd, checkstyle settings, etc)</description>
@@ -61,9 +62,9 @@
                     <version>3.1.1</version>
                     <dependencies>
                         <dependency>
-                            <groupId>org.apache.cxf.build-utils</groupId>
-                            <artifactId>cxf-buildtools</artifactId>
-                            <version>${cxf.build-utils.version}</version>
+                            <groupId>ru.ilb.buildtools</groupId>
+                            <artifactId>buildtools</artifactId>
+                            <version>${ilb.buildtools.version}</version>
                         </dependency>
                         <dependency>
                             <groupId>com.puppycrawl.tools</groupId>
@@ -100,9 +101,9 @@
                     <version>3.13.0</version>
                     <dependencies>
                         <dependency>
-                            <groupId>org.apache.cxf.build-utils</groupId>
-                            <artifactId>cxf-buildtools</artifactId>
-                            <version>${cxf.build-utils.version}</version>
+                            <groupId>ru.ilb.buildtools</groupId>
+                            <artifactId>buildtools</artifactId>
+                            <version>${ilb.buildtools.version}</version>
                         </dependency>
                     </dependencies>
                     <configuration>
