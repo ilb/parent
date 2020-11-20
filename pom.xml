@@ -3,7 +3,7 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>ru.ilb.parent</groupId>
     <artifactId>parent</artifactId>
-    <version>1.0</version>
+    <version>1.1-SNAPSHOT</version>
     <packaging>pom</packaging>
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -34,7 +34,7 @@
     <scm>
         <connection>scm:git:https://git.ilb.ru/ilb.ru/parent.git</connection>
         <url>https://git.ilb.ru/ilb.ru/parent</url>
-      <tag>parent-1.0</tag>
+      <tag>HEAD</tag>
   </scm>
     <build>
         <pluginManagement>
